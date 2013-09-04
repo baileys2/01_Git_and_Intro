@@ -60,7 +60,7 @@ Based on what I read in the Git book, it would not be a good idea to keep a loca
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+If this would ever happen to me, I would ideally go online to Github because the most up-to-date version of my homework should be on that site. However if this is not the case, then I would have to go all the way back to my room, grab the USB drive, and walk all the way back to the lab. To ensure that this doesn't happen again, I would push the version of the assignment to Github to make sure that I didn't make this unfortunate mistake again.
 
 #### 3. Morin, Exercise 1.1 (p. 23)
 
