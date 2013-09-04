@@ -76,6 +76,12 @@ If this would ever happen to me, I would ideally go online to Github because the
 
 6. An SSet should be used in this in order to print all of the lines by length. I would use the compare(x,y) function to sort the lines, and I would use the find(x) function to locate any duplicates and then remove them.
 
+7. This problem is very similar to the last one in many ways, so an SSet should also be used here. I would use the compare(x,y) function again to sort through the lines in the file. There would be no need to check for duplicates, however, as they are allowed in this situation.
+
+8. In my opinion a list interface should be used here due to the fact that the lines of the file do not need to be ordered in any way. The lines in the file would be read into the list, and then I would utilize a loop and the get(i) function to output the even elements, then output all of the remaining odd elements.
+
+9. A list should be used here.
+
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
