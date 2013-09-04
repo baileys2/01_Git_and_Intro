@@ -70,6 +70,12 @@ If this would ever happen to me, I would ideally go online to Github because the
 
 3. A queue would be the best way to approach this problem. The program would begin by reading in sections of the file (43 lines at a time), checking for blank lines. If any blank lines did occur, it would be easy to replace them with the earlier line specified in the instructions because it would be the first line in the queue up for deletion (due to the FIFO nature of the interface). Once the queue is filled with information, the oldest line would be deleted and the newest line would be put in, which is not a problem because the oldest line would no longer be needed to possibly replace a blank line.
 
+4. A USet would be the best interface in this situation, as USet does not permit duplicate items. The program I would make for this would read each line in a file and, before deciding whether or not to add it, use the find(x) function to determine if the line has already been used or not. If it has not been used then it would be added, however if it had already been used earlier in the file it would not be added.
+
+5. this would be another instance in which a USet would be used, for the same reasons as the previous situation. I would also use a List in this problem. 
+
+6. An SSet should be used in this in order to print all of the lines by length. I would use the compare(x,y) function to sort the lines, and I would use the find(x) function to locate any duplicates and then remove them.
+
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
