@@ -86,7 +86,7 @@ If this would ever happen to me, I would ideally go online to Github because the
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+1.2  There are multiple relationshops between Dyck words and the aforementioned Stack operations. Stack push(x) and pop() operations, like Dyck words, cannot have negative sequences of 1's, both + and -. For all intensive purposes the methods of push(x) are the same as a +1 in a Dyck word, while a -1 is very similar to a -1. 
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
