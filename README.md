@@ -64,7 +64,11 @@ If this would ever happen to me, I would ideally go online to Github because the
 
 #### 3. Morin, Exercise 1.1 (p. 23)
 
-[Your answer here]
+1. In this situation I would use a stack interface, which uses the LIFO implementation, as this is pretty much exactly what is asked for in the problem.
+
+2. I would also use a stack interface in this situation, although I would add a couple of other features to it. I would include a simple loop to the program with a counter that (when the counter reached 50) would cause the program to stop reading lines of information in and begin outputting them according to the LIFO method instead. Once all of the lines stored were output, the program would begin reading lines in again, and this process would repeat until there was no more information to read in.
+
+3. A queue would be the best way to approach this problem. The program would begin by reading in sections of the file (43 lines at a time), checking for blank lines. If any blank lines did occur, it would be easy to replace them with the earlier line specified in the instructions because it would be the first line in the queue up for deletion (due to the FIFO nature of the interface). Once the queue is filled with information, the oldest line would be deleted and the newest line would be put in, which is not a problem because the oldest line would no longer be needed to possibly replace a blank line.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
